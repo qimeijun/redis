@@ -11,7 +11,7 @@
 
 最简单的数据类型，一个`key`对应一个`value`， 这里的`value`的支持三种数据类型：字符串、浮点型、数字型。<br/>
 
-![String类型](http://upload-images.jianshu.io/upload_images/1644330-1ed432a231b2f486.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![String类型](https://github.com/qimeijun/redis/blob/master/string.png)
 
 简单命令：
  
@@ -33,7 +33,7 @@
 能够存储多个`value`值，允许重复的value值。从左往右<br/>
 
 
-![List类型](http://upload-images.jianshu.io/upload_images/1644330-82f3fdcdff3973d0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![List类型](https://github.com/qimeijun/redis/blob/master/list.png)
 
 简单命令：
 1、`lpush key-name value`: 向链表key-name左边插入value<br/>
@@ -50,7 +50,7 @@
 `Set` 是集合数据类型，无序，能够存储多个`value`值，不能存储重复的value值。
 
 
-![Set类型](http://upload-images.jianshu.io/upload_images/1644330-d1a4f9d1082593ff.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Set类型](https://github.com/qimeijun/redis/blob/master/set.png)
 
 常用命令：
 1、`sadd key-name value1 value2...`: 给key-name 设置多个value值<br/>
@@ -65,7 +65,7 @@
 
 `Hash`是散列数据类型，无序，能够存储多个`key-value`值。
 
-![Hash散列](http://upload-images.jianshu.io/upload_images/1644330-c7e31ac56d8cb346.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Hash散列](https://github.com/qimeijun/redis/blob/master/hash.png)
 
 常用命令：
 1、`hset key-name field-name value`: 给key-name 设置值<br/>
@@ -86,7 +86,7 @@
 `ZSet`有序集合数据类型，有序，能够存储多个`value`值，但是`value`只能是分值（分值就是指浮点型数据），集合中会根据`value`值默认排序.
 
 
-![ZSet有序集合](http://upload-images.jianshu.io/upload_images/1644330-8a07669823316428.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ZSet有序集合](https://github.com/qimeijun/redis/blob/master/zset.png)
 
 常用命令：
  1、`zadd key-name count1 value1 [count2 value2...] `: 给key-name 设置多个值 <br/>
