@@ -129,3 +129,7 @@ redis是一种内存数据库，当服务器关机或者出现其他故障，red
        `appendfsync everysec`:每秒钟强制写入磁盘一次，在性能和持久化方面最了很好的折中<br/>
      `appendfsync no`:完全依赖[操作系统](http://lib.csdn.net/base/operatingsystem)，性能好的时候就持久，不好的时候就不持久化<br/>
   
+  
+> 启动redis
+ 
+ windows启动命令： `redis-server redis.windows.conf`
